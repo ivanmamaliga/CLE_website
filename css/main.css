@@ -8,14 +8,6 @@
 }
 
 
- /* body {
-    display: flex;
-    flex-direction: column;
-    font-family: 'Varela Round', sans-serif;
-	  line-height: 1.6;
-    background-color: #ece9e9;
-    
-}  */
 body {
   margin: 0;
   padding: 0;
@@ -82,9 +74,7 @@ header {
   margin: 0 auto;
   padding: 0;
 }
-/* .nav .name {
-  display: none;
-} */
+
 .nav li {
   padding: 5px 10px 10px 10px;
 }
@@ -96,10 +86,7 @@ header {
 }
 
 
-/* 
-nav {
-  background-color: orange;
-} */
+
 
 ul {
     list-style: none;
@@ -159,21 +146,6 @@ footer {
 
 /* ---- Layout Containers ---- */
 
-
-
-/* ---- Page Elements ---- */
-
-/* .main-header {
-  display: flex;
-  flex-direction: column;
-    /* flex: 1; */
-    /* text-align: center; */
-/*} */
-
-/* .main-nav {
-  display: flex;
-} */
-
 .container {
     display: flex;
     flex-direction: column;
@@ -193,11 +165,7 @@ form {
     border-radius: 8px;
   }
   
-  /* h1 {
-    margin: 0 0 30px 0;
-    text-align: center;
-  }
-   */
+ 
   input[type="text"],
   /* input[type="password"], */
   input[type="date"],
@@ -223,71 +191,12 @@ form {
     box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset;
     margin-bottom: 30px;
   }
-  
-  /* input[type="radio"],
-  input[type="checkbox"] {
-    margin: 0 4px 8px 0;
-  }
-   */
-  /* select {
-    padding: 6px;
-    height: 32px;
-    border-radius: 2px;
-  }
-  
-  button {
-    padding: 19px 39px 18px 39px;
-    color: #FFF;
-    background-color: #4bc970;
-    font-size: 18px;
-    text-align: center;
-    font-style: normal;
-    border-radius: 5px;
-    width: 100%;
-    border: 1px solid #3ac162;
-    border-width: 1px 1px 3px;
-    box-shadow: 0 -1px 0 rgba(255,255,255,0.1) inset;
-    margin-bottom: 10px;
-  }
-  
-  fieldset {
-    margin-bottom: 30px;
-    border: none;
-  }
-  
-  legend {
-    font-size: 1.4em;
-    margin-bottom: 10px;
-  }
-  
-  label {
-    display: block;
-    margin-bottom: 8px;
-  }
-  
-  label.light {
-    font-weight: 300;
-    display: inline;
-  }
-  
-  .number {
-    background-color: #5fcf80;
-    color: #fff;
-    height: 30px;
-    width: 30px;
-    display: inline-block;
-    font-size: 0.8em;
-    margin-right: 4px;
-    line-height: 30px;
-    text-align: center;
-    text-shadow: 0 1px 0 rgba(255,255,255,0.2);
-    border-radius: 100%;
-  } */
+
+ 
   /*************************
 Clearfix
 *************************/
-
-/* .clearfix:before,
+ .clearfix:before,
 .clearfix:after {
   content: " ";
   display: table;
@@ -299,4 +208,4 @@ Clearfix
 
 .clearfix {
   *zoom: 1;
-} */
+} 
