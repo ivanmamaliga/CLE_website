@@ -22,15 +22,19 @@ let button = document.getElementById('btn-submit');
 
 /////// The payback number is populated in the Payback cell
 
-button.onclick = () => {
+// button.onclick = () => {
     
-    document.getElementById('poff').value = parseFloat(inv.value) + parseFloat(svn.value);
-    //document.write(payoff.value); // - writes in a new page
-    // alert("Hello");
-    // console.log("clicked");
-};
+//     document.getElementById('poff').value = parseFloat(inv.value) + parseFloat(svn.value);
+//     //document.write(payoff.value); // - writes in a new page
+//     // alert("Hello");
+//     // console.log("clicked");
+// };
   
-
+document.getElementById('calc').addEventListener('submit', function(e) {
+    e.preventDefault(); //to prevent form submission
+    // alert('click');
+    document.getElementById('poff').value = parseFloat(inv.value) + parseFloat(svn.value);
+    }); 
 
 
 //User clicks on the Reset button and the fields a reset to null
