@@ -15,18 +15,17 @@
 
 
 .wrapper {
-  width: 90%;
   margin: 0 auto;
 }
 
 
 
-/* body {
+body {
   font-family: Helvetica, Helvetica Neue, Arial;
   text-align: center;
   color: #222;
   background: #afa794;
-} */
+}
 
 h1 {
 
@@ -58,8 +57,8 @@ h2 {
 /* ================================= 
   Navigation
 ==================================== */
-header{
-background-color: rgb(51, 33, 33);
+.header-container {
+background-color: rgb(216, 27, 27);
   
   
  
@@ -81,7 +80,6 @@ background-color: rgb(51, 33, 33);
  /* background-color: #33a1b4; */
  height: 1.5em;
  margin-top: 5px;
- color: black; 
  /* display: inline;  */
  text-align: center;
  /* margin-left: 15px; */
@@ -101,7 +99,7 @@ background-color: rgb(51, 33, 33);
 
 .nav a:hover,
 .nav a:visited {
- /* color: white; */
+ color: white;
 }
 
 .nav a:hover {
@@ -111,14 +109,14 @@ background-color: rgb(51, 33, 33);
 /* The hero image */
 
 .hero-image {
-  
-  background-image: linear-gradient(rgba(218, 204, 204, 0.5), rgba(155, 192, 196, 0.5)), url("../img/Hero2.png");
-  background-image: url(../img/Hero3.bmp);
+  background-image: linear-gradient(rgba(107, 67, 67, 0.3), rgba(42, 70, 73, 0.2)), url("../img/Hero3.bmp");
+  /* background-image: url(../img/Hero3.bmp); */
 
   /* Set a specific height */
     /* height: 100%; */
 
   /* Position and center the image to scale nicely on all screens */
+  position: relative;
   background-position: center;
   background-repeat: no-repeat;
   height: 400px;
@@ -136,7 +134,7 @@ background-color: rgb(51, 33, 33);
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  color: rgb(76, 109, 81);
+  color: rgb(158, 12, 43);
 }
 h3 {
   height: 1.7em;
@@ -145,14 +143,13 @@ h3 {
 
 p {
   margin-top: 10px;
+  margin-bottom: 10px;
 }
 
-
-
-.img-one {
- /* display: flex;  */
- width: 100%;
+img {
+  width: 100%;
 }
+
 
 .form {
   
@@ -163,20 +160,6 @@ p {
 
 .form li {
   list-style-type: none;
-}
-
-/* input[type="text"], */
-/* textarea, */
-
-
-#btn-submit,
-#btn-reset {
-  /* position: relative; */
-  color: aqua;
-  width: auto;
-  height: 25px;
-  background-color: beige;
-  text-decoration-style: double;
 }
 
 footer {
@@ -197,6 +180,22 @@ Media Queries
 *************************/
 
 @media (min-width: 468px) {
+  .wrapper {
+    margin: 0 auto;
+    width: 95%;
+  }
+  
+.col1 {
+  /* display: flex;  */
+  width: 49%;
+ }
+
+.col2 {
+  width: 47%;
+}
+
+ 
+ 
 
   .logo {
     width: 30%;
@@ -218,37 +217,31 @@ Media Queries
   }
 
 } 
-@media (min-width: 1040px) {
+@media (min-width: 697px) {
 
   .wrapper {
-    width: 1200px;
+    width: 90%;
   }
   .logo {
     max-width: 375px;
     text-align: left;
   }
-  .nav li { 
-    /* float: right; */
-    /* width: 200px; */
-  }
-
+ 
   nav a {
     padding: 15px 1%;
   }
 
-  .main article {
-    float: left;
-    width: 57%;
-  }
+  } 
 
-  .main aside {
-    float: right;
-    width: 38%;
-  } */
-
- } 
-
-
+  @media (min-width: 1100px) {
+    .nav
+    .nav li {
+          align-items: stretch;
+        justify-content: space-between;
+      }
+    
+    
+    }
 
 /*************************
 Clearfix
