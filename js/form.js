@@ -17,6 +17,8 @@ var svn = document.getElementById('sav');
 //user clicks on the Submit btn and the script calculates the Payback period
 //let payoff = document.getElementById('poff');
 // payoff.value = 20;
+var int = document.getElementById('int');
+
 let button = document.getElementById('btn-submit');
 // button.style.color = "green";
 
@@ -33,7 +35,7 @@ let button = document.getElementById('btn-submit');
 document.getElementById('calc').addEventListener('submit', function(e) {
     e.preventDefault(); //to prevent form submission
     // alert('click');
-    document.getElementById('poff').value = parseFloat(inv.value) + parseFloat(svn.value);
+    document.getElementById('poff').value = parseFloat(inv.value) * (parseFloat(int.value) + 1) / parseFloat(svn.value);
     }); 
 
 

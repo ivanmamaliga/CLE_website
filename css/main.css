@@ -23,8 +23,8 @@
 body {
   font-family: Helvetica, Helvetica Neue, Arial;
   text-align: center;
-  color: #222;
-  background: #afa794;
+  /* color: #222; */
+  /* background: #afa794; */
 }
 
 h1 {
@@ -43,9 +43,9 @@ h2 {
 /* nav {
   box-sizing: border-box;
 } */
-.main-container {
+/* .main-container {
   background-color: violet;
-}
+} */
 
 .col2 {
   background-color: aliceblue;
@@ -57,12 +57,9 @@ h2 {
 /* ================================= 
   Navigation
 ==================================== */
-.header-container {
+/* .header-container {
 background-color: rgb(216, 27, 27);
-  
-  
- 
- }
+} */
 
 .main-header {
   /* position: fixed; */
@@ -106,7 +103,10 @@ background-color: rgb(216, 27, 27);
  text-decoration: none;
 }
 
-/* The hero image */
+/* ================================= 
+  The hero image 
+==================================== */
+
 
 .hero-image {
   background-image: linear-gradient(rgba(107, 67, 67, 0.3), rgba(42, 70, 73, 0.2)), url("../img/hero-img01.jpg");
@@ -137,10 +137,17 @@ p {
   margin-bottom: 10px;
 }
 
+.btn-hero {
+  color: green;
+}
+
+/* ================================= 
+  Form and Proj
+==================================== */
+
 img {
   width: 100%;
 }
-
 
 .form {
   
@@ -152,6 +159,12 @@ img {
 .form li {
   list-style-type: none;
   margin: 10px 15px;
+  width: 100%;
+}
+
+.form li textarea {
+  margin-top: 20px;
+
 }
 
 footer {
@@ -211,7 +224,7 @@ Media Queries
 } 
 @media (min-width: 697px) {
 
-  .wrapper {
+  .wraper {
     width: 90%;
   }
   .logo {
@@ -226,6 +239,10 @@ Media Queries
   } 
 
   @media (min-width: 1100px) {
+    .wrapper {
+      width: 1290px;
+    }
+
     .nav
     .nav li {
           align-items: stretch;

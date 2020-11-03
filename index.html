@@ -11,12 +11,14 @@
   </head>
    
   <body>
+
+    <div class="wrapper">
     <!-- header -->
-    <div class="header-container wrapper clearfix">
+    <div class="header-container  clearfix">
       
       <header class="main-header"> 
         <div class="logo">
-           <h1>Energy Management Design</h1> 
+           <h1>Energy Management And Design</h1> 
         </div>
         
         <ul class="nav">
@@ -27,40 +29,39 @@
 
         </ul>  
       </header>
-    
-             <!-- hero -->
 
-          <!-- </div> -->
-         
-
-        <!-- /hero -->
     </div> 
 
-    <div class="hero-image wrapper clearfix">
+    <div class="hero-image clearfix">
             
       <div class="hero-text">
         <h3>We are here for you!</h3>
         <p>Help us save the Planet!</p>
-        <button>Hire us</button>
+        <button class="btn-hero">Hire us</button>
       </div>
     
-    </div>
-    
-   
-      <!-- col1 -->
+    </div> 
+        <!-- /hero -->
+ 
 
-    <section class="main-container wrapper clearfix">
+    <section class="main-container  clearfix">
 
     
       <div class="col1">
 
         <h2 class="project-title">Our Projects</h2>
 
+        <div class="cards">
         <!-- img -->
-        <img class="img-one" src="img/Free-Contractor-Warranty-Forms.webp" alt="">
+          <img class="img-one" src="img/Free-Contractor-Warranty-Forms.webp" alt="">
+
+          <img src="img/Hero.png" alt="">
+
+        </div>
 
       </div>  
-    <!-- col2 -->
+
+      <!-- col2 -->
     
       <div class="col2">
 
@@ -70,17 +71,21 @@
 
           <ul class="form">
             
-            <li><label for="inv">Your Investment</label>
+              <li><label for="inv">Your Investment</label></li>
             
-            <input type="text" id="inv" name="investment" id="Investment"></li>
+            <li><input type="text" id="inv" name="investment" id="Investment"></li>
             
-            <li><label for="sav">Project Savings</label>
+            <li><label for="sav">Project Savings</label></li>
             
-            <input type="text" id="sav" name="savings" id="Savings"></li>
+            <li><input type="text" id="sav" name="savings" id="Savings"></li>
             
+            <li><label for="int">Interest</label></li>
+           
+            <li><input type="text" id="int" name="interest" id="Interest"></li>
+
             <li><label for="payoff">Project Payoff</label>
             
-            <input type="text" id="poff" name="payoff" id="Payoff"></li>
+            <li><input type="text" id="poff" name="payoff" id="Payoff"></li>
             
             <li>
               <textarea>Please leave your comments</textarea>
@@ -88,8 +93,10 @@
             
             <li class="button-row"><button type="submit" id="btn-submit"><h2>Submit</h2></button>
             
-            <input type="reset"></li>
-          
+            <!-- <input type="reset"></li> -->
+            <button type="reset" id="btn-reset"><h2>Reset</h2></button>  
+            </li>
+
           </ul>
 
         </form>
@@ -108,7 +115,7 @@
 
     <!-- footer -->
 
-  </div> <!-- wrapper -->
+  </div> <!-- wraper -->
 
       <script src="js/form.js"></script>
   </body>
