@@ -28,14 +28,9 @@
 
 @media screen and (min-width: 697px) {
 
-  /* .main-container {
-    display: flex;
-    justify-content: space-between;
+  .nav.li {
+    flex: 1 0 12em;
   }
-  
-  .calc {
-    display: flex;
-  } */
 
 } 
 

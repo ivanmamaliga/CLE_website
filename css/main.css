@@ -109,23 +109,14 @@ background-color: rgb(216, 27, 27);
 /* The hero image */
 
 .hero-image {
-  background-image: linear-gradient(rgba(107, 67, 67, 0.3), rgba(42, 70, 73, 0.2)), url("../img/Hero3.bmp");
-  /* background-image: url(../img/Hero3.bmp); */
-
-  /* Set a specific height */
-    /* height: 100%; */
-
-  /* Position and center the image to scale nicely on all screens */
+  background-image: linear-gradient(rgba(107, 67, 67, 0.3), rgba(42, 70, 73, 0.2)), url("../img/hero-img01.jpg");
+  background-size: cover;
   position: relative;
   background-position: center;
   background-repeat: no-repeat;
   height: 400px;
-  width: 100%;
-    /* position: relative; */
-  /* display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center; */
+  /* width: 100%; */
+  
 }
 
 .hero-text {
@@ -134,10 +125,10 @@ background-color: rgb(216, 27, 27);
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  color: rgb(158, 12, 43);
+  color: rgb(238, 231, 233);
 }
 h3 {
-  height: 1.7em;
+  font-size: 2em;
   font-weight: bold;
 }
 
@@ -160,6 +151,7 @@ img {
 
 .form li {
   list-style-type: none;
+  margin: 10px 15px;
 }
 
 footer {
