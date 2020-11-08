@@ -61,6 +61,7 @@ h2 {
 background-color: rgb(216, 27, 27);
 } */
 
+
 .main-header {
   /* position: fixed; */
   background-color: #599a68;
@@ -158,7 +159,7 @@ img {
 
 .form li {
   list-style-type: none;
-  margin: 10px 15px;
+  /* margin: 10px 15px; */
   width: 100%;
 }
 
@@ -177,6 +178,21 @@ footer {
     border-top: 10px solid #599a68;
     text-align: center;
 }
+
+
+/*************************
+   Contatc Form
+*************************/
+address {
+  display: block;
+  font-size: 1.4em;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;  
+  text-align: left;
+  margin-left: 50%;
+}
+
+
+
 
 
 

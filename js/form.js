@@ -35,7 +35,7 @@ let button = document.getElementById('btn-submit');
 document.getElementById('calc').addEventListener('submit', function(e) {
     e.preventDefault(); //to prevent form submission
     // alert('click');
-    document.getElementById('poff').value = parseFloat(inv.value) * (parseFloat(int.value) + 1) / parseFloat(svn.value);
+    document.getElementById('poff').value = parseFloat(inv.value) * (parseFloat(int.value)/100 + 1) / parseFloat(svn.value);
     }); 
 
 
