@@ -31,3 +31,12 @@ document.getElementById('calc').addEventListener('submit', function(e) {
 
 
 //User clicks on the Reset button and the fields a reset to null
+
+////////////////////// Toggle Navbar ///////////////////
+
+const toggleButton = document.getElementsByClassName('toggle-button')[0]
+const navbarLinks = document.getElementsByClassName('navbar-links')[0]
+
+toggleButton.addEventListener('click', () => {
+  navbarLinks.classList.toggle('active')
+})
