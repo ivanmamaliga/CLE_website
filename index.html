@@ -45,7 +45,7 @@
       <div class="hero-text">
         <h3>We are here for you!</h3>
         <p>Help us save the Planet!</p>
-        <button class="btn-hero">Hire us</button>
+        <a href="contact.html"><button>Hire us</button></a>
       </div>
     
     </div> 
@@ -79,24 +79,25 @@
 
           <ul class="form">
             
-              <li><label for="inv">Your Investment</label></li>
+              <li><label for="inv">Your Investment<span aria-hidden="true" class="required">*</span></label>
+              </li>
             
-            <li><input type="text" id="inv" name="investment" id="Investment"></li>
+            <li><input type="text" id="inv" name="investment" id="Investment" placeholder="Please enter value in US$"></li>
             
-            <li><label for="sav">Project Savings</label></li>
+            <li><label for="sav">Project Savings<span aria-hidden="true" class="required">*</span></label></li>
             
-            <li><input type="text" id="sav" name="savings" id="Savings"></li>
+            <li><input type="text" id="sav" name="savings" id="Savings" placeholder="Please enter value in US$"></li>
             
-            <li><label for="int">Interest Rate</label></li>
+            <li><label for="int">Interest Rate<span aria-hidden="true" class="required">*</span></label></li>
            
             <li><input type="text" id="int" name="interest" id="Interest"></li>
 
             <li><label for="payoff">Project Payoff</label>
             
-            <li><input type="text" id="poff" name="payoff" id="Payoff"></li>
+            <li><input type="text" id="poff" name="payoff" disabled></li>
             
             <li>
-              <textarea>Please leave your comments</textarea>
+              <textarea>Your Comments</textarea>
             </li>
             
             <li class="button-row"><button type="submit" id="btn-submit"><h2>Submit</h2></button>
@@ -104,6 +105,7 @@
             <!-- <input type="reset"></li> -->
             <button type="reset" id="btn-reset"><h2>Reset</h2></button>  
             </li>
+            <li class="required"><h5>* indicates required field</h5></li>
 
           </ul>
 
