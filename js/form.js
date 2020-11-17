@@ -2,17 +2,10 @@
 
 var inv = document.getElementById('inv');
 
-
-
-
 var svn = document.getElementById('sav');
-
-
 
 var int = document.getElementById('int');
 
-
-  
 document.getElementById('calc').addEventListener('submit', function(e) {
     e.preventDefault(); //to prevent form submission
     // alert('click');

@@ -3,10 +3,12 @@
   padding: 0;
   box-sizing: border-box;
 }
- 
-*, *:before, *:after {
+
+*,
+*:before,
+*:after {
   box-sizing: inherit;
-} 
+}
 
 
 /* ================================= 
@@ -23,15 +25,12 @@
 body {
   font-family: Helvetica, Helvetica Neue, Arial;
   text-align: center;
-  /* color: #222; */
-  /* background: #afa794; */
 }
 
 h1 {
   margin: 0;
-  /* text-align: center; */
   color: rgb(196, 62, 21);
-} 
+}
 
 h2 {
   color: #33a1b4;
@@ -39,41 +38,23 @@ h2 {
 
 }
 
-/* nav {
-  box-sizing: border-box;
-} */
-/* .main-container {
-  background-color: violet;
-} */
 
 .col2 {
   background-color: aliceblue;
-  /* margin-right: 30px;
-  width: auto;*/
 }
 
 
 /* ================================= 
   Navigation
 ==================================== */
-/* .header-container {
-  display: flex;
-
-} */
-
 
 .main-header {
-  /* position: fixed; */
 
   background-color: #599a68;
-
-/* z-index: 1000; */
-  
 
 }
 
 .logo {
-  /* max-width: 350px; */
   text-align: left;
 }
 
@@ -87,7 +68,6 @@ h2 {
   width: 40px;
   height: 30px;
   background-color: none;
-  /* z-index: 2000; */
 }
 
 .toggle-button .bar {
@@ -103,8 +83,8 @@ h2 {
 }
 
 .navbar-links li {
- list-style-type: none; 
- 
+  list-style-type: none;
+
 }
 
 .navbar-links li a {
@@ -117,18 +97,14 @@ h2 {
 .navbar-links li:nth-child(4) {
   font-style: italic;
   /* margin-bottom: 5px; */
-  }
-  .navbar-links li:hover {
+}
+
+.navbar-links li:hover {
   background-color: #33a1b4;
   font-style: italic;
 }
 
-/* .navbar-links a {
- text-align: center; 
- text-decoration: none;
- font-weight: bold;
- }  */
- .main-header {
+.main-header {
   display: flex;
   flex-direction: column;
 }
@@ -145,12 +121,12 @@ h2 {
 
 .navbar-links a:hover,
 .navbar-links a:visited {
- 
- color: white;
+
+  color: white;
 }
 
 .navbar-links a:hover {
- text-decoration: none;
+  text-decoration: none;
 
 }
 
@@ -166,8 +142,8 @@ h2 {
   background-position: center;
   background-repeat: no-repeat;
   height: 400px;
-   /* width: 100%; */
-  
+  /* width: 100%; */
+
 }
 
 .hero-text {
@@ -178,6 +154,7 @@ h2 {
   transform: translate(-50%, -50%);
   color: rgb(238, 231, 233);
 }
+
 h3 {
   font-size: 2em;
   font-weight: bold;
@@ -201,7 +178,7 @@ img {
 }
 
 .form {
-  
+
   /* padding: 10px 20px; */
   background: #d1dee2;
   border-radius: 8px;
@@ -220,14 +197,13 @@ img {
 }
 
 footer {
-	padding: 2em 0;
-	background: #d9e4ea;
+  padding: 2em 0;
+  background: #d9e4ea;
 }
 
-.main-footer 
-{
-    border-top: 10px solid #599a68;
-    text-align: center;
+.main-footer {
+  border-top: 10px solid #599a68;
+  text-align: center;
 }
 
 .required {
@@ -245,7 +221,7 @@ footer {
 address {
   display: block;
   font-size: 1.4em;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;  
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   text-align: left;
   margin-left: 50%;
 }
@@ -273,7 +249,7 @@ Media Queries
     margin-top: 15%;
     margin-left: 5px;
   }
-  
+
   .col1 {
     /* display: flex;  */
     width: 49%;
@@ -287,24 +263,23 @@ Media Queries
     font-size: 1.4em;
   }
 
-  /* ul.nav {
-   width: 67%;
-  } */
-
   .navbar-links ul {
     width: 100%;
   }
+
   .navbar-links li {
-    margin: auto;   
-   
+    margin: auto;
+
   }
 
-} 
+}
+
 @media (min-width: 697px) {
 
   .wraper {
     width: 90%;
   }
+
   .logo {
     max-width: 350px;
     text-align: left;
@@ -319,26 +294,26 @@ Media Queries
     width: 100%;
     padding: 1rem;
   }
- 
+
   .navbar-links a {
     padding: 15px 1%;
   }
 
-  } 
+}
 
-  @media (min-width: 1100px) {
-    .wrapper {
-      width: 1290px;
-    }
+@media (min-width: 1100px) {
+  .wrapper {
+    width: 1290px;
+  }
 
-    .navbar-links,
-    .navbar-links li {
-        /* align-items: stretch; */
-        justify-content: space-between;
-      }
-    
-    
-    }
+  .navbar-links,
+  .navbar-links li {
+    /* align-items: stretch; */
+    justify-content: space-between;
+  }
+
+
+}
 
 /*************************
 Clearfix

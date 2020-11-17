@@ -1,76 +1,77 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  
-    <link rel="stylesheet" href="css/normalize.min.css">
-    <link rel="stylesheet" href="css/main.css">
-    <link rel="stylesheet" href="css/flex.css">
-    <title>Energy Management and Design</title>
-  </head>
-   
-  <body>
 
-    <div class="wrapper">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <link rel="stylesheet" href="css/normalize.min.css">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/flex.css">
+  <title>Energy Management and Design</title>
+</head>
+
+<body>
+
+  <div class="wrapper">
     <!-- header -->
-       <div class="header-container  clearfix">
-      
-        <header class="main-header"> 
-          <div class="logo">
-            <h1>Energy Management And Design</h1> 
-          </div>
+    <div class="header-container  clearfix">
 
-            <a href="#" class="toggle-button">
-              <span class="bar"></span>
-              <span class="bar"></span>
-              <span class="bar"></span>
-            </a>
+      <header class="main-header">
+        <div class="logo">
+          <h1>Energy Management And Design</h1>
+        </div>
 
-          <div class="navbar-links">
-            <ul>
-              <li> <a href="#">Home</a></li>
-              <li> <a href="#">About Us</a></li>
-              <li> <a href="#">Our Projects</a></li>
-              <li> <a href="contact.html">Contact Us</a></li>
+        <a href="#" class="toggle-button">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </a>
 
-            </ul> 
-        </div> 
-        </header>
+        <div class="navbar-links">
+          <ul>
+            <li> <a href="#">Home</a></li>
+            <li> <a href="#">About Us</a></li>
+            <li> <a href="#">Our Projects</a></li>
+            <li> <a href="contact.html">Contact Us</a></li>
 
-      </div> 
+          </ul>
+        </div>
+      </header>
+
+    </div>
 
     <div class="hero-image clearfix">
-            
+
       <div class="hero-text">
         <h3>We are here for you!</h3>
         <p>Help us save the Planet!</p>
         <a href="contact.html"><button>Hire us</button></a>
       </div>
-    
-    </div> 
-        <!-- /hero -->
- 
+
+    </div>
+    <!-- /hero -->
+
 
     <section class="main-container  clearfix">
 
-    
+
       <div class="col1">
 
         <h2 class="project-title">Our Projects</h2>
 
         <div class="cards">
-        <!-- img -->
+          <!-- img -->
           <img class="img-one" src="img/Free-Contractor-Warranty-Forms.webp" alt="">
 
           <img src="img/Hero.png" alt="">
 
         </div>
 
-      </div>  
+      </div>
 
       <!-- col2 -->
-    
+
       <div class="col2">
 
         <h2>Energy Savings Calculator</h2>
@@ -78,55 +79,63 @@
         <form id="calc" action="index.html">
 
           <ul class="form">
-            
-              <li><label for="inv">Your Investment<span aria-hidden="true" class="required">*</span></label>
-              </li>
-            
-            <li><input type="text" id="inv" name="investment" id="Investment" placeholder="Please enter value in US$"></li>
-            
+
+            <li><label for="inv">Your Investment<span aria-hidden="true" class="required">*</span></label>
+            </li>
+
+            <li><input type="text" id="inv" name="investment" id="Investment" placeholder="Please enter value in US$">
+            </li>
+
             <li><label for="sav">Project Savings<span aria-hidden="true" class="required">*</span></label></li>
-            
+
             <li><input type="text" id="sav" name="savings" id="Savings" placeholder="Please enter value in US$"></li>
-            
+
             <li><label for="int">Interest Rate<span aria-hidden="true" class="required">*</span></label></li>
-           
+
             <li><input type="text" id="int" name="interest" id="Interest"></li>
 
             <li><label for="payoff">Project Payoff</label>
-            
+
             <li><input type="text" id="poff" name="payoff" disabled></li>
-            
+
             <li>
               <textarea>Your Comments</textarea>
             </li>
-            
-            <li class="button-row"><button type="submit" id="btn-submit"><h2>Submit</h2></button>
-            
-            <!-- <input type="reset"></li> -->
-            <button type="reset" id="btn-reset"><h2>Reset</h2></button>  
+
+            <li class="button-row"><button type="submit" id="btn-submit">
+                <h2>Submit</h2>
+              </button>
+
+              <!-- <input type="reset"></li> -->
+              <button type="reset" id="btn-reset">
+                <h2>Reset</h2>
+              </button>
             </li>
-            <li class="required"><h5>* indicates required field</h5></li>
+            <li class="required">
+              <h5>* indicates required field</h5>
+            </li>
 
           </ul>
 
         </form>
-        
+
         <!-- form -->
 
-      </section>
-    
+    </section>
+
 
 
     <!-- footer -->
-   
-      <footer class="main-footer">
-        <span>&copy; 2020 Energy Management and Design.</span>
-      </footer>
+
+    <footer class="main-footer">
+      <span>&copy; 2020 Energy Management and Design.</span>
+    </footer>
 
     <!-- footer -->
 
   </div> <!-- wraper -->
 
-      <script src="js/form.js"></script>
-  </body>
+  <script src="js/form.js"></script>
+</body>
+
 </html>
