@@ -1,4 +1,4 @@
-                ##Code Louisville Project.
+                # Code Louisville Project.
 
 The project was implemented using the mobile first approach. Used media queries to scale up the layout.
 
