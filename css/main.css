@@ -316,26 +316,15 @@ Media Queries
 @media (min-width: 1100px) {
   .wrapper {
     width: 1290px;
-  }
+   }
 
-<<<<<<< HEAD
     .navbar-links,
     .navbar-links li {
       justify-content: space-between;
     }
     
     
-    }
-=======
-  .navbar-links,
-  .navbar-links li {
-    /* align-items: stretch; */
-    justify-content: space-between;
   }
-
-
-}
->>>>>>> 6c61093f3c320fce518aaa44126944397f55585a
 
 /*************************
 Clearfix
