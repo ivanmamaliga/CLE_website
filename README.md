@@ -28,5 +28,5 @@ For the mobile model it includes a hamburger menu due to limited available area 
 
 5. I use Javascript to validate the input in the form. If the cells are not populated then an alert will ask the user to populate the form in order to perform the calculation.
 
-6. I also use Javascript also to expand the hamburger menu.
+6. I also use Javascript to expand the hamburger menu.
 
