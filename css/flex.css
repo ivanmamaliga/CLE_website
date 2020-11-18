@@ -4,8 +4,7 @@
   .main-header{
  
      flex-direction: row;
-      /* justify-content: space-between; */
-      /* flex: 1 0 250px; */ 
+      
    } 
   .logo,
   .navbar-links {
@@ -22,7 +21,6 @@
   .navbar-links ul,
   .navbar-links li {
     display: flex;
-    /* flex-wrap: wrap; */
     justify-content: space-between;
   }
   .main-container {

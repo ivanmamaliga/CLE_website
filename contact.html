@@ -36,19 +36,14 @@
                 <li> <a href="contact.html">Contact Us</a></li>
   
               </ul> 
-          </div> 
+            </div> 
           </header>
   
         </div> 
   
       <div class="hero-image clearfix">
               
-        <div class="hero-text">
-          <h3>We are here for you!</h3>
-          <p>Help us save the Planet!</p>
-          <a href="contact.html"><button>Hire us</button></a>
-        </div>
-      
+              
       </div> 
         <!-- /hero -->
 
@@ -81,6 +76,13 @@
 
   </div> <!-- wraper -->
 
-      <script src="js/form.js"></script>
+    <script type="text/javascript">
+      const toggleButton = document.getElementsByClassName('toggle-button')[0]
+      const navbarLinks = document.getElementsByClassName('navbar-links')[0]
+      
+      toggleButton.addEventListener('click', () => {
+        navbarLinks.classList.toggle('active')
+      });
+    </script>
   </body>
 </html>
