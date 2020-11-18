@@ -1,8 +1,16 @@
 var inv = document.getElementById('inv');
+<<<<<<< HEAD
 var svn = document.getElementById('sav');
 var int = document.getElementById('int');
 
 
+=======
+
+var svn = document.getElementById('sav');
+
+var int = document.getElementById('int');
+
+>>>>>>> 6c61093f3c320fce518aaa44126944397f55585a
 document.getElementById('calc').addEventListener('submit', function(e) {
     e.preventDefault(); //to prevent form submission
     // alert('click');

@@ -3,10 +3,12 @@
   padding: 0;
   box-sizing: border-box;
 }
- 
-*, *:before, *:after {
+
+*,
+*:before,
+*:after {
   box-sizing: inherit;
-} 
+}
 
 
 /* ================================= 
@@ -28,7 +30,7 @@ body {
 h1 {
   margin: 0;
   color: rgb(196, 62, 21);
-} 
+}
 
 h2 {
   color: #33a1b4;
@@ -49,6 +51,10 @@ h2 {
 .main-header {
 
   background-color: #599a68;
+<<<<<<< HEAD
+=======
+
+>>>>>>> 6c61093f3c320fce518aaa44126944397f55585a
 }
 
 .logo {
@@ -80,8 +86,8 @@ h2 {
 }
 
 .navbar-links li {
- list-style-type: none; 
- 
+  list-style-type: none;
+
 }
 
 .navbar-links li a {
@@ -93,7 +99,12 @@ h2 {
 
 .navbar-links li:nth-child(4) {
   font-style: italic;
+<<<<<<< HEAD
   }
+=======
+  /* margin-bottom: 5px; */
+}
+>>>>>>> 6c61093f3c320fce518aaa44126944397f55585a
 
 .navbar-links li:hover {
   background-color: #33a1b4;
@@ -117,12 +128,12 @@ h2 {
 
 .navbar-links a:hover,
 .navbar-links a:visited {
- 
- color: white;
+
+  color: white;
 }
 
 .navbar-links a:hover {
- text-decoration: none;
+  text-decoration: none;
 
 }
 
@@ -138,6 +149,11 @@ h2 {
   background-position: center;
   background-repeat: no-repeat;
   height: 400px;
+<<<<<<< HEAD
+=======
+  /* width: 100%; */
+
+>>>>>>> 6c61093f3c320fce518aaa44126944397f55585a
 }
 
 .hero-text {
@@ -148,6 +164,7 @@ h2 {
   transform: translate(-50%, -50%);
   color: rgb(238, 231, 233);
 }
+
 h3 {
   font-size: 2em;
   font-weight: bold;
@@ -171,6 +188,11 @@ img {
 }
 
 .form {
+<<<<<<< HEAD
+=======
+
+  /* padding: 10px 20px; */
+>>>>>>> 6c61093f3c320fce518aaa44126944397f55585a
   background: #d1dee2;
   border-radius: 8px;
 }
@@ -187,14 +209,13 @@ img {
 }
 
 footer {
-	padding: 2em 0;
-	background: #d9e4ea;
+  padding: 2em 0;
+  background: #d9e4ea;
 }
 
-.main-footer 
-{
-    border-top: 10px solid #599a68;
-    text-align: center;
+.main-footer {
+  border-top: 10px solid #599a68;
+  text-align: center;
 }
 
 .required {
@@ -212,7 +233,7 @@ footer {
 address {
   display: block;
   font-size: 1.4em;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;  
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   text-align: left;
   margin-left: 50%;
 }
@@ -240,7 +261,7 @@ Media Queries
     margin-top: 15%;
     margin-left: 5px;
   }
-  
+
   .col1 {
     /* display: flex;  */
     width: 49%;
@@ -257,17 +278,20 @@ Media Queries
   .navbar-links ul {
     width: 100%;
   }
+
   .navbar-links li {
-    margin: auto;   
-   
+    margin: auto;
+
   }
 
-} 
+}
+
 @media (min-width: 697px) {
 
   .wraper {
     width: 90%;
   }
+
   .logo {
     max-width: 350px;
     text-align: left;
@@ -282,18 +306,19 @@ Media Queries
     width: 100%;
     padding: 1rem;
   }
- 
+
   .navbar-links a {
     padding: 15px 1%;
   }
 
-  } 
+}
 
-  @media (min-width: 1100px) {
-    .wrapper {
-      width: 1290px;
-    }
+@media (min-width: 1100px) {
+  .wrapper {
+    width: 1290px;
+  }
 
+<<<<<<< HEAD
     .navbar-links,
     .navbar-links li {
       justify-content: space-between;
@@ -301,6 +326,16 @@ Media Queries
     
     
     }
+=======
+  .navbar-links,
+  .navbar-links li {
+    /* align-items: stretch; */
+    justify-content: space-between;
+  }
+
+
+}
+>>>>>>> 6c61093f3c320fce518aaa44126944397f55585a
 
 /*************************
 Clearfix
