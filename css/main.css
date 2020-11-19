@@ -51,10 +51,6 @@ h2 {
 .main-header {
 
   background-color: #599a68;
-<<<<<<< HEAD
-=======
-
->>>>>>> 6c61093f3c320fce518aaa44126944397f55585a
 }
 
 .logo {
@@ -99,14 +95,9 @@ h2 {
 
 .navbar-links li:nth-child(4) {
   font-style: italic;
-<<<<<<< HEAD
   }
-=======
-  /* margin-bottom: 5px; */
-}
->>>>>>> 6c61093f3c320fce518aaa44126944397f55585a
 
-.navbar-links li:hover {
+  .navbar-links li:hover {
   background-color: #33a1b4;
   font-style: italic;
 }
@@ -149,11 +140,6 @@ h2 {
   background-position: center;
   background-repeat: no-repeat;
   height: 400px;
-<<<<<<< HEAD
-=======
-  /* width: 100%; */
-
->>>>>>> 6c61093f3c320fce518aaa44126944397f55585a
 }
 
 .hero-text {
@@ -188,12 +174,9 @@ img {
 }
 
 .form {
-<<<<<<< HEAD
-=======
 
   /* padding: 10px 20px; */
->>>>>>> 6c61093f3c320fce518aaa44126944397f55585a
-  background: #d1dee2;
+  /* background: #d1dee2; */
   border-radius: 8px;
 }
 
@@ -203,9 +186,12 @@ img {
   margin-top: 0.8rem;
 }
 
-.form li textarea {
-  margin-top: 20px;
+.form li.required {
+  margin-bottom: 1rem;
+}
 
+.form li textarea {
+  margin-top: auto;
 }
 
 footer {
@@ -214,7 +200,7 @@ footer {
 }
 
 .main-footer {
-  border-top: 10px solid #599a68;
+  border-top: 3px solid #599a68;
   text-align: center;
 }
 
@@ -226,6 +212,9 @@ footer {
   color: #599a68;
 }
 
+ .form li :last-child {
+   margin-bottom: 1.5rem;
+ } 
 
 /*************************
    Contact Form

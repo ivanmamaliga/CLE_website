@@ -83,29 +83,34 @@
             <li><label for="inv">Your Investment<span aria-hidden="true" class="required">*</span></label>
             </li>
 
-            <li><input type="text" id="inv" name="investment" id="Investment" placeholder="Please enter value in US$">
+            <li><input type="text" id="inv" name="investment" id="Investment" placeholder="Enter value in US$">
             </li>
 
-            <li><label for="sav">Project Savings<span aria-hidden="true" class="required">*</span></label></li>
+            <li><label for="sav">Yearly Savings<span aria-hidden="true" class="required">*</span></label></li>
 
-            <li><input type="text" id="sav" name="savings" id="Savings" placeholder="Please enter value in US$"></li>
+            <li><input type="text" id="sav" name="savings" id="Savings" placeholder=" Enter value in US$"></li>
 
             <li><label for="int">Interest Rate<span aria-hidden="true" class="required">*</span></label></li>
 
-            <li><input type="text" id="int" name="interest" id="Interest"></li>
+            <li><input type="text" id="int" name="interest" id="Interest" placeholder="Annual Interest Rate"></li>
+
+            
+
+            <li class="required"><h5>* indicates required field</h5></li>
+
+            <label for="comment">Your Comments:</label>
+
+            <li><textarea id="comment" placeholder="Please enter your comments (optional)"></textarea></li>
+
+                     
+            <button type="submit" id="btn-submit"><h2>Submit</h2></button>
+            
+            <button type="reset" id="btn-reset"><h2>Reset</h2></button>  
+          
 
             <li><label for="payoff">Project Payoff</label>
 
             <li><input type="text" id="poff" name="payoff" disabled></li>
-
-            <li>
-              <textarea>Your Comments</textarea>
-            </li>
-            
-            <li class="button-row"><button type="submit" id="btn-submit"><h2>Submit</h2></button>
-            
-            <button type="reset" id="btn-reset"><h2>Reset</h2></button>  
-            </li>
 
           </ul>
 
